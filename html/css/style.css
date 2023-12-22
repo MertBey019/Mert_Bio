@@ -1,0 +1,54 @@
+body {
+  background-color: #ffffff; /* Koyu tema arka plan rengi */
+  color: #fff; /* Metin rengi */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #222; /* Başlık çubuğu arka plan rengi */
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.content-box {
+  width: 90%;
+  background-color: #444; /* İçerik kutusu arka plan rengi */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto; /* Navbar ile kutu arasında boşluk bırakır */
+  text-align: center;
+}
